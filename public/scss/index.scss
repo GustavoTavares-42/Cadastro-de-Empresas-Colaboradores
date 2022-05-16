@@ -1,0 +1,74 @@
+@import "form";
+
+
+body
+{
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.addEmpresa
+{
+    a
+    {
+    text-decoration: none; 
+    list-style-type: none;
+    color: black;
+    font-size: 2em;  
+    }
+}
+
+.card
+{
+    position: relative;
+    display: inline-block;
+    top:20px; 
+    box-shadow:  5px 1px 10px 1px #888888;
+    transition: 0.3s;
+    text-align: center;
+    background-color: white;
+    
+    table
+    {
+
+        padding: 20px;
+        border-radius: 5px;
+    
+    
+       th, td 
+        {
+            box-shadow: 5px 5px 5px 3px #888888;
+            text-align: center;
+            width:0;
+            background-color: white;
+            margin: auto;
+            border-radius: 5px;
+        }
+        th
+        {
+            background-color: black;
+            color: white;
+        } 
+    }
+}
+
+.card:hover 
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#btn
+{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    a
+    {
+        text-decoration: none; 
+        list-style-type: none;
+        color: black;
+    }
+}

@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1652300850;_ci_previous_url|s:26:"http://cadastro/index.php/";message|s:297:"<div  style='color: red; margin-top:60px;'> <!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>O Arquivo deve possuir extensão .csv</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+ </div>";__ci_vars|a:1:{s:7:"message";s:3:"old";}

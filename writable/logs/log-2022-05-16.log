@@ -1,0 +1,322 @@
+CRITICAL - 2022-05-16 00:45:17 --> syntax error, unexpected '}', expecting ';'
+#0 C:\wamp64\www\testew2o\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\t...')
+#1 C:\wamp64\www\testew2o\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-16 01:10:29 --> A non-numeric value encountered
+#0 C:\wamp64\www\testew2o\app\Controllers\Empresa.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\t...', 112, Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Empresa->cadastrar()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 01:10:56 --> A non-numeric value encountered
+#0 C:\wamp64\www\testew2o\app\Controllers\Empresa.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\t...', 112, Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Empresa->cadastrar()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 12:14:15 --> syntax error, unexpected '}', expecting end of file
+#0 C:\wamp64\www\testew2o\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\t...')
+#1 C:\wamp64\www\testew2o\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-16 12:14:38 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:14:40 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:14:45 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:15:15 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:16:15 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:17:08 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:17:09 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:17:30 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:17:31 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:17:36 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:21:32 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:21:33 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 100, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(100): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:24:35 --> Too few arguments to function App\Controllers\Colaboradores::exportData(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 12:25:31 --> Too few arguments to function App\Controllers\Colaboradores::exportData(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 12:26:08 --> fputcsv() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 103, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(103): fputcsv(Resource id #11, NULL)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:26:09 --> fputcsv() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 103, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(103): fputcsv(Resource id #11, NULL)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:26:15 --> fputcsv() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 103, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(103): fputcsv(Resource id #11, NULL)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:29:37 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:29:38 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:29:40 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:29:41 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:29:46 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:30:16 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:31:16 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:33:41 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:33:42 --> fopen(C:\wamp64\www\testew2o\writable\uploads\colaboradores_20220516.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\wamp64...', 'C:\\wamp64\\www\\t...', 98, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(98): fopen('C:\\wamp64\\www\\t...', 'r')
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:43:25 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 101, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(101): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:43:26 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 101, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(101): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData('36')
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:43:47 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 101, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(101): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:43:48 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 101, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(101): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:45:16 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 101, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(101): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:45:18 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\wamp64\\www\\t...', 101, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(101): fputcsv(Resource id #11, Object(stdClass))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 12:53:39 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 12:53:41 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 12:53:44 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 12:53:45 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 12:53:51 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 12:53:52 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->exportData()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

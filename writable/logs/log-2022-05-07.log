@@ -1,0 +1,24 @@
+CRITICAL - 2022-05-07 12:18:17 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 C:\wamp64\www\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('cadastro', Array, true)
+#2 C:\wamp64\www\cadastro\app\Controllers\Home.php(9): view('cadastro')
+#3 C:\wamp64\www\cadastro\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-07 16:25:54 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-07 16:25:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\wamp64\www\cadastro\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\cadastro\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#2 C:\wamp64\www\cadastro\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\wamp64\www\cadastro\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\wamp64\www\cadastro\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\wamp64\www\cadastro\app\Models\Pessoas.php(14): CodeIgniter\Model->insert(Array)
+#6 C:\wamp64\www\cadastro\app\Controllers\Home.php(26): App\Models\Pessoas->insertPessoasForm(Array)
+#7 C:\wamp64\www\cadastro\system\CodeIgniter.php(832): App\Controllers\Home->insertForm()
+#8 C:\wamp64\www\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

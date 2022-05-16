@@ -1,0 +1,891 @@
+CRITICAL - 2022-05-14 15:09:38 --> Undefined variable: eventos
+#0 C:\wamp64\www\testew2o\app\Views\cadastro.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\t...', 14, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('cadastro', Array, true)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(11): view('cadastro')
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 15:23:12 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\testew2o\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\t...')
+#1 C:\wamp64\www\testew2o\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 15:23:33 --> Undefined variable: empresa
+#0 C:\wamp64\www\testew2o\app\Views\cadastro.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\t...', 14, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('cadastro', Array, true)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(11): view('cadastro')
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 15:24:42 --> Call to undefined method App\Models\Empresa::selectEmpresa
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(12): CodeIgniter\Model->__call('selectEmpresa', Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 15:25:04 --> Second array member is not a valid method
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 15:25:25 --> Second array member is not a valid method
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 15:25:38 --> Undefined variable: email
+#0 C:\wamp64\www\testew2o\app\Views\cadastro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\t...', 21, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('cadastro', Array, true)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(14): view('cadastro', Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 16:24:12 --> Undefined property: stdClass::$nome
+#0 C:\wamp64\www\testew2o\app\Views\cadastro.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\t...', 26, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('cadastro', Array, true)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(14): view('cadastro', Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 16:50:14 --> Call to undefined method App\Models\Empresa::editarEmpresa
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(33): CodeIgniter\Model->__call('editarEmpresa', Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 17:20:14 --> Second array member is not a valid method
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->consultarEmpresas()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 17:50:51 --> Undefined variable: empresa
+#0 C:\wamp64\www\testew2o\app\Views\empresas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\t...', 3, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/empresas', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/empresas')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(14): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-14 17:56:12 --> Column 'razaosocial' cannot be null
+CRITICAL - 2022-05-14 17:56:12 --> Column 'razaosocial' cannot be null
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\wamp64\www\testew2o\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\testew2o\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\testew2o\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\testew2o\app\Models\Empresa.php(14): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(51): App\Models\Empresa->cadastraEmpresa(Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-14 17:56:54 --> Column 'razaosocial' cannot be null
+CRITICAL - 2022-05-14 17:56:54 --> Column 'razaosocial' cannot be null
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\wamp64\www\testew2o\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\testew2o\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\testew2o\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\testew2o\app\Models\Empresa.php(14): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(51): App\Models\Empresa->cadastraEmpresa(Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-14 17:57:42 --> Column 'razaosocial' cannot be null
+CRITICAL - 2022-05-14 17:57:42 --> Column 'razaosocial' cannot be null
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\wamp64\www\testew2o\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\testew2o\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\testew2o\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\testew2o\app\Models\Empresa.php(14): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(51): App\Models\Empresa->cadastraEmpresa(Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-14 18:10:10 --> Call to undefined method App\Models\Empresa::selectEmpresa
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(18): CodeIgniter\Model->__call('selectEmpresa', Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 18:13:06 --> Call to undefined method App\Models\Empresa::editarEmpresa
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(39): CodeIgniter\Model->__call('editarEmpresa', Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 20:06:22 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\empresas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 21, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/empresas', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/empresas')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(20): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-14 20:08:47 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\empresas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 21, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/empresas', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/empresas')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(20): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-14 20:09:43 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\empresas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 21, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/empresas', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/empresas')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(20): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-14 20:10:00 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\empresas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 21, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/empresas', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/empresas')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(20): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-14 20:10:13 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\empresas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 21, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/empresas', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/empresas')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(20): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-14 20:13:11 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\empresas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 21, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/empresas', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/empresas')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(20): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-14 20:23:27 --> Too few arguments to function App\Controllers\Home::editarEmpresa(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 20:27:56 --> Too few arguments to function App\Controllers\Home::loadViewEmpresas(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 20:29:46 --> Too few arguments to function App\Controllers\Home::loadViewEmpresas(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 20:30:34 --> Too few arguments to function App\Controllers\Home::loadViewEmpresas(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 20:30:35 --> Too few arguments to function App\Controllers\Home::loadViewEmpresas(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 20:46:57 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-14 21:03:54 --> Table 'testew2o.empresas' doesn't exist
+CRITICAL - 2022-05-14 21:03:54 --> Table 'testew2o.empresas' doesn't exist
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `empresa...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:10:24 --> You must use the "set" method to update an entry.
+#0 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1892): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Database\BaseBuilder->update(NULL, Array)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 21:11:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-14 21:12:03 --> Unknown column 'field' in 'field list'
+CRITICAL - 2022-05-14 21:12:03 --> Unknown column 'field' in 'field list'
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `empresa...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Database\BaseBuilder->update(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-14 21:12:34 --> Unknown column 'field' in 'field list'
+CRITICAL - 2022-05-14 21:12:34 --> Unknown column 'field' in 'field list'
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `empresa...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Database\BaseBuilder->update(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:13:58 --> You must use the "set" method to update an entry.
+#0 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1892): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Database\BaseBuilder->update(NULL, Array)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 21:21:02 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\wamp64\www\testew2o\app\Models\Empresa.php(28): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\t...', 28, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 21:22:35 --> Too few arguments to function App\Models\Empresa::editarEmpresa(), 0 passed in C:\wamp64\www\testew2o\app\Controllers\Home.php on line 63 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 21:28:28 --> Too few arguments to function App\Models\Empresa::editarEmpresa(), 1 passed in C:\wamp64\www\testew2o\app\Controllers\Home.php on line 64 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): App\Models\Empresa->editarEmpresa(Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 21:29:01 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:29:34 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:29:51 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:31:05 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:39:00 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\wamp64\www\testew2o\app\Models\Empresa.php(28): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\t...', 28, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-14 21:44:15 --> Duplicate entry '0' for key 'empresa.PRIMARY'
+CRITICAL - 2022-05-14 21:44:15 --> Duplicate entry '0' for key 'empresa.PRIMARY'
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `empresa...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\wamp64\www\testew2o\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\testew2o\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(NULL, Array)
+#8 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-14 21:45:09 --> Duplicate entry '0' for key 'empresa.PRIMARY'
+CRITICAL - 2022-05-14 21:45:09 --> Duplicate entry '0' for key 'empresa.PRIMARY'
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `empresa...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\wamp64\www\testew2o\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\wamp64\www\testew2o\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\testew2o\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(NULL, Array)
+#8 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-14 21:47:55 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\wamp64\www\testew2o\app\Models\Empresa.php(28): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\t...', 28, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 21:48:00 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\wamp64\www\testew2o\app\Models\Empresa.php(28): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\t...', 28, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 21:48:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 22:01:25 --> Undefined property: App\Controllers\Home::$db
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\t...', 62, Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 22:03:10 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\t...', 63, Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 22:04:06 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\t...', 63, Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 22:29:32 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(28): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 22:30:53 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:31:20 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:31:36 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:32:53 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:32:55 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:32:57 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:33:15 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:33:57 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:37:23 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 22:41:33 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:42:23 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:42:25 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 22:43:13 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 22:43:15 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresa(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 22:45:50 --> Call to undefined method App\Models\Empresa::editarEmpresas
+#0 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): CodeIgniter\Model->__call('editarEmpresas', Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 22:47:59 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editarEmpresas(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 22:50:04 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 22:52:23 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 22:52:45 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-14 22:59:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM empresa where id =' at line 1
+CRITICAL - 2022-05-14 22:59:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM empresa where id =' at line 1
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE * FROM e...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE * FROM e...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE * FROM e...')
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Database\BaseConnection->query('UPDATE * FROM e...')
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 23:01:23 --> Array to string conversion
+#0 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\t...', 27, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 23:01:54 --> Array to string conversion
+#0 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\t...', 27, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 23:09:41 --> Array to string conversion
+#0 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\t...', 27, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 23:11:25 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(27): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 23:17:04 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 23:28:37 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Controllers\Home.php(64): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 23:28:55 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(33): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 23:28:57 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(33): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(63): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 23:35:05 --> Too few arguments to function App\Controllers\Home::loadViewEditar(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 23:36:14 --> Too few arguments to function App\Controllers\Home::loadViewEditar(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 23:36:15 --> Too few arguments to function App\Controllers\Home::loadViewEditar(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 23:36:24 --> Too few arguments to function App\Controllers\Home::loadViewEditar(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 23:37:08 --> Too few arguments to function App\Controllers\Home::loadViewEditar(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 23:37:09 --> Too few arguments to function App\Controllers\Home::loadViewEditar(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 23:37:43 --> Too few arguments to function App\Controllers\Home::loadViewEditar(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 23:37:44 --> Too few arguments to function App\Controllers\Home::loadViewEditar(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 23:37:45 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\testew2o\app\Views\empresas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\t...', 21, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/empresas', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/empresas')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Home.php(20): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEmpresas()
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-14 23:38:04 --> Table 'testew2o.evento' doesn't exist
+CRITICAL - 2022-05-14 23:38:04 --> Table 'testew2o.evento' doesn't exist
+#0 C:\wamp64\www\testew2o\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM e...', 0)
+#1 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\wamp64\www\testew2o\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(26): App\Models\Empresa->consultarId('7')
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->loadViewEditar('7')
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 23:40:00 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(33): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(65): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 23:40:52 --> There is no data to update.
+#0 C:\wamp64\www\testew2o\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\testew2o\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\testew2o\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\testew2o\app\Models\Empresa.php(33): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\testew2o\app\Controllers\Home.php(65): App\Models\Empresa->editar(NULL, Array)
+#5 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Home->editarEmpresa()
+#6 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
