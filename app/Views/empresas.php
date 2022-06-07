@@ -22,7 +22,7 @@
 					<td value="<?php echo $row->email; ?>"><?php echo $row->email; ?></td>
 					<td value="<?php echo $row->endereco; ?>"><?php echo $row->endereco; ?></td>
 					<td value="editar"><button id="btn"><a href="<?= base_url("Empresa/editar/$row->id")?>">Editar</a></button></td>
-					<td value="editar"><button id="btn"><a href="<?= base_url("Empresa/excluir/$row->id")?>">Excluir</a></button></td>
+					<td value="editar"><button id="btn"><a href="<?= base_url("Empresa/excluir/$row->id")?>" onclick="return confirm('Deseja excluir?');">Excluir</a></button></td>
 				</tr>
 			</table>
 			<div >

@@ -19,7 +19,7 @@
 						<td value="<?php echo $row->email; ?>"><?php echo $row->email; ?></td>
 						<td value="<?php echo $row->data; ?>"><?php echo $row->data; ?></td>
 						<td value="editar"><button id="btn"><a href="<?= base_url("Colaboradores/editar/$row->id")?>">Editar</a></button></td>
-						<td value="excluir"><button id="btn"><a href="<?= base_url("Colaboradores/excluir/$row->id")?>">Excluir</a></button></td>
+						<td value="excluir"><button id="btn"><a href="<?= base_url("Colaboradores/excluir/$row->id")?>" onclick="return confirm('Deseja excluir?');">Excluir</a></button></td>
 					</tr>
 					<?php endforeach; ?>
 				</table>	     
