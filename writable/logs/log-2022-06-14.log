@@ -1,0 +1,221 @@
+CRITICAL - 2022-06-14 12:31:26 --> Uninitialized string offset: 10
+#0 C:\wamp64\www\testew2o\app\Controllers\Empresa.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'C:\\wamp64\\www\\t...', 64, Array)
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Empresa->cadastrar()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 12:40:05 --> include(class/class-valida-cpf-cnpj.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\testew2o\app\Controllers\Empresa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(class/c...', 'C:\\wamp64\\www\\t...', 58, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Empresa.php(58): include()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Empresa->cadastrar()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 12:46:56 --> include(class/class-valida-cpf-cnpj.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\testew2o\app\Controllers\Empresa.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(class/c...', 'C:\\wamp64\\www\\t...', 58, Array)
+#1 C:\wamp64\www\testew2o\app\Controllers\Empresa.php(58): include()
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Empresa->cadastrar()
+#3 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresa))
+#4 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 14:13:25 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\cadastro_colaboradores.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/cadastro_colab...', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/cadastro_colab...')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(23): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewCadastro('40')
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-14 14:13:59 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\cadastro_colaboradores.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/cadastro_colab...', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/cadastro_colab...')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(23): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewCadastro('36')
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-14 14:19:02 --> Too few arguments to function App\Controllers\Colaboradores::viewColaborador(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewColaborador()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:25:26 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('44')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:26:01 --> Too few arguments to function App\Controllers\Colaboradores::editar(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->editar('44')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:26:05 --> Too few arguments to function App\Controllers\Colaboradores::editar(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->editar('44')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:26:08 --> Too few arguments to function App\Controllers\Colaboradores::editar(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->editar('44')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:28:21 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('44')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:28:27 --> Too few arguments to function App\Controllers\Colaboradores::editar(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->editar('36')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:39:02 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('47')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:40:40 --> Too few arguments to function App\Controllers\Colaboradores::viewColaborador(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewColaborador()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:43:34 --> Too few arguments to function App\Controllers\Colaboradores::viewColaborador(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewColaborador()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:44:20 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('49')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:44:51 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('49')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:44:59 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('49')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:45:48 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('49')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 14:58:50 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('49')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 15:02:20 --> Too few arguments to function App\Controllers\Colaboradores::viewColaborador(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewColaborador()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 15:02:33 --> Too few arguments to function App\Controllers\Colaboradores::excluir(), 1 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->excluir('49')
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 15:07:36 --> Too few arguments to function App\Controllers\Colaboradores::viewColaborador(), 0 passed in C:\wamp64\www\testew2o\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewColaborador()
+#1 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#2 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 15:13:35 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\cadastro_colaboradores.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/cadastro_colab...', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/cadastro_colab...')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(23): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewCadastro('26')
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-14 15:13:40 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\cadastro_colaboradores.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/cadastro_colab...', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/cadastro_colab...')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(23): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewCadastro('26')
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-14 15:19:28 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\cadastro_colaboradores.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/cadastro_colab...', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/cadastro_colab...')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(23): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewCadastro('26')
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-14 15:20:07 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\testew2o\app\Views\cadastro_colaboradores.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\t...', 2, Array)
+#1 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('/cadastro_colab...', Array, true)
+#4 C:\wamp64\www\testew2o\app\Views\index.php(11): view('/cadastro_colab...')
+#5 C:\wamp64\www\testew2o\system\View\View.php(210): include('C:\\wamp64\\www\\t...')
+#6 C:\wamp64\www\testew2o\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\testew2o\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\wamp64\www\testew2o\app\Controllers\Colaboradores.php(23): view('index', Array)
+#9 C:\wamp64\www\testew2o\system\CodeIgniter.php(832): App\Controllers\Colaboradores->viewCadastro('26')
+#10 C:\wamp64\www\testew2o\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#11 C:\wamp64\www\testew2o\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\testew2o\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

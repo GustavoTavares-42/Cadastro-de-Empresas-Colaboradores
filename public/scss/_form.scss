@@ -1,14 +1,15 @@
 form
 {
-    display: inline-block;
-    width: 400px;
+   width: 400px;
+   margin: auto;
+   margin-top: 50px;
    border-radius: 5px;
    padding: 10px;
    box-shadow: 5px 10px 10px 5px #888888;
    background-color: rgb(32, 32, 32);
-    label, input
+    label, input, textarea
     {
-        margin-top: 20px;
+        margin-top: 10px;
         display: block;
         width: 100%;
         text-align: left;
@@ -31,16 +32,18 @@ form
         height: 20px;
         color: black;
     }
-    a
+    button
     {
-        position: relative;
-        text-decoration: none; 
-        list-style-type: none;
+        height: 25px;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 4px;
+        border: none;
+        padding: 5px;
+    }
+    h2
+    {
         color: white;
-        font-size: 1em;
-        float: right;
-        &hover{
-            color: #910d0d;
-        }
+        text-align: center;
     }
 }

@@ -1,7 +1,8 @@
 
-<div style="text-align: center; width: 100%; margin: 0px 0;">
-		<form action="<?= base_url('Empresa/cadastrar')?>" method="POST">
-		<h2 style="color: white;">Cadastrar Empresa</h2> 
+
+		<form id="form_emp" action="<?= base_url('Empresa/cadastrar')?>" method="POST">
+		<button id="btn"><a href="<?= base_url('Empresa/empresas')?>">Consultar Dados</a></button>
+		<h2>Cadastrar Empresa</h2> 
 			<label for="nome"><b>Razão Social</b></label>
 			<input type="text" name="razaosocial" id="razaosocial" required="required">
 			<label for="cpf"><b>CNPJ</b></label>
@@ -13,7 +14,4 @@
 			<label for="endereco"><b>Endereço</b></label>
 			<textarea id="endereco" name="endereco" rows="4" cols="50"></textarea>
 			<input type="submit" value="Cadastrar">
-			<button id="btn"><a href="<?= base_url('Empresa/empresas')?>">Consultar Dados</a></button>
 		</form>
-		
-	</div>

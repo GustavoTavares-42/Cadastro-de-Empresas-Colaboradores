@@ -1,40 +1,45 @@
-.addEmpresa
+#btn_add_emp
 {
+    background-color: white;
+    border-radius: 4px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
     a
     {
-    text-decoration: none; 
-    list-style-type: none;
-    color: black;
-    font-size: 2em;  
+        font-size: 1.2em;
+        font-weight: bold;  
     }
 }
 
 .card
 {
-    position: relative;
-    display: inline-block;
-    margin: 20px;
+    margin: auto;
+    margin-top: 30px;
     box-shadow:  5px 1px 10px 1px #888888;
     transition: 0.3s;
     text-align: center;
     background-color: white;
+    padding: 10px;
+    &:hover 
+    {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
     
     table
     {
+        width: 100%;
         margin: auto;
-        padding: 20px;
         border-radius: 5px;
         padding: 10px;
     
-    
        th, td 
         {
-            box-shadow: 5px 5px 5px 3px #888888;
+            border: 1px solid black;
             text-align: center;
             width:0;
             background-color: white;
             margin: auto;
-            border-radius: 5px;
         }
         th
         {
@@ -44,21 +49,17 @@
     }
 }
 
-.card:hover 
-{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 #btn
 {
     cursor: pointer;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: white;
     a
     {
         text-decoration: none; 
         list-style-type: none;
         color: black;
+        font-weight: bold;
     }
 }

@@ -18,7 +18,7 @@ class Colaboradores extends BaseController
     public function viewCadastro($id)
     {
         $empresaModel = new \App\Models\Empresa;
-        $empresa = $empresaModel->find($id);
+        $empresa = $empresaModel->consultarId($id);
         $dados = ['pagina' => 'cadastro_colaboradores', 'empresa' => $empresa];
         return view ('index', $dados);
     }
@@ -40,13 +40,14 @@ class Colaboradores extends BaseController
                     'empresa_id' => $empresa_id
                 ];
         $colaboradoresModel->cadastraColaboradores($dados);
-        return redirect()->to(site_url('Empresa/empresas'));
+        return redirect()->to(site_url("Colaboradores/viewColaborador/".$empresa_id));
     }
     
-    public function editar($id)
+    public function editar($idColab)
     {
         $colaboradorModel = new \App\Models\Colaboradores;
-        $colaborador = $colaboradorModel->find($id);
+        $colaborador = $colaboradorModel->find($idColab);
+        
 
         if($this->request->getMethod() === 'post')
         {
@@ -61,8 +62,8 @@ class Colaboradores extends BaseController
                         'email' => $email,
                         'data' => $data,
                     ];
-            if($colaboradorModel->update($id, $colaborador)) {
-                return redirect()->to(site_url("Empresa/empresas"));
+            if($colaboradorModel->update($idColab, $colaborador)) {
+                return redirect()->to(site_url("Colaboradores/viewColaborador/"));
             }
             else{
                 echo "Que a força esteja com você!";
@@ -75,8 +76,7 @@ class Colaboradores extends BaseController
     public function excluir($id)
     {
         $colaboradorModel = new \App\Models\Colaboradores;
-        $colaboradorModel->find($id);
         $colaboradorModel->delete($id);
-        return redirect()->to(site_url("Empresa/empresas"));
+        return redirect()->to(site_url("Colaboradores/viewColaborador/".$id));
     }
 }
