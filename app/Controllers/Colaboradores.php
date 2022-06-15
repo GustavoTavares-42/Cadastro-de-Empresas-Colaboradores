@@ -18,7 +18,7 @@ class Colaboradores extends BaseController
     public function viewCadastro($id)
     {
         $empresaModel = new \App\Models\Empresa;
-        $empresa = $empresaModel->consultarId($id);
+        $empresa = $empresaModel->find($id);
         $dados = ['pagina' => 'cadastro_colaboradores', 'empresa' => $empresa];
         return view ('index', $dados);
     }
@@ -40,13 +40,16 @@ class Colaboradores extends BaseController
                     'empresa_id' => $empresa_id
                 ];
         $colaboradoresModel->cadastraColaboradores($dados);
-        return redirect()->to(site_url("Colaboradores/viewColaborador/".$empresa_id));
+        return redirect()->to(site_url('Empresa/empresas'));
     }
     
     public function editar($id)
     {
         $colaboradorModel = new \App\Models\Colaboradores;
+<<<<<<< HEAD
         $empresa_id = $colaboradorModel->empresaId($id);
+=======
+>>>>>>> parent of 81a3932 (Estilo e Cadastro)
         $colaborador = $colaboradorModel->find($id);
 
         if($this->request->getMethod() === 'post')
@@ -63,7 +66,11 @@ class Colaboradores extends BaseController
                         'data' => $data,
                     ];
             if($colaboradorModel->update($id, $colaborador)) {
+<<<<<<< HEAD
                 return redirect()->to(site_url("Colaboradores/viewColaborador/".$empresa_id['empresa_id']));
+=======
+                return redirect()->to(site_url("Empresa/empresas"));
+>>>>>>> parent of 81a3932 (Estilo e Cadastro)
             }
             else{
                 echo "Que a força esteja com você!";
@@ -76,8 +83,14 @@ class Colaboradores extends BaseController
     public function excluir($id)
     {
         $colaboradorModel = new \App\Models\Colaboradores;
+<<<<<<< HEAD
         $empresa_id = $colaboradorModel->empresaId($id);
         $colaboradorModel->delete($id);
         return redirect()->to(site_url("Colaboradores/viewColaborador/".$empresa_id['empresa_id']));
+=======
+        $colaboradorModel->find($id);
+        $colaboradorModel->delete($id);
+        return redirect()->to(site_url("Empresa/empresas"));
+>>>>>>> parent of 81a3932 (Estilo e Cadastro)
     }
 }

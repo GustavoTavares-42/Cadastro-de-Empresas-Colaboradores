@@ -27,6 +27,7 @@ class Colaboradores extends Model
         $query = $db->query("SELECT * FROM colaboradores WHERE $id = empresa_id");
         return $query->getResult();
     }
+<<<<<<< HEAD
 
     public function empresaId($id)
     {
@@ -34,4 +35,6 @@ class Colaboradores extends Model
         $query = $db->query("SELECT empresa_id FROM colaboradores WHERE id = $id");
         return $query->getRowArray();
     }
+=======
+>>>>>>> parent of 81a3932 (Estilo e Cadastro)
 }

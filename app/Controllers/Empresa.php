@@ -4,8 +4,6 @@ namespace App\Controllers;
 
 use CodeIgniter\HTTP\Request;
 
-
-
 class Empresa extends BaseController
 {
     public function index()
@@ -76,9 +74,9 @@ class Empresa extends BaseController
     public function excluir($id)
     {
         $empresaModel = new \App\Models\Empresa;
-        $empresaModel->consultarId($id);
+        $empresaModel->find($id);
         $empresaModel->excluir($id);
         return redirect()->to(site_url('Empresa/empresas'));
     }
-
+    
 }
