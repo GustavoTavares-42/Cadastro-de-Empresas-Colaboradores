@@ -1,5 +1,5 @@
 <form id="form_edit_colab" method="POST">
-	<button id="btn"><a href="<?= base_url("Empresa/empresas")?>">Voltar</a></button>
+	<button id="btn"><a href="<?= base_url("Colaboradores/viewColaborador/$colaborador->empresa_id")?>">Voltar</a></button>
 	<h2 style="color: white;">Editar Colaborador</h2> 
 	<label for="nome"><b>Nome</b></label>
 	<input type="text" name="nome" id="nome" value="<?php echo $colaborador->nome; ?>">

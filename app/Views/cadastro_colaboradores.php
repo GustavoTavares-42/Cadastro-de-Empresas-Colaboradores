@@ -1,6 +1,6 @@
 
 	<form id="form_colab" action="<?= base_url("Colaboradores/cadastra/".$empresa['id'])?>" method="POST">
-	<button id="btn"><a href="<?= base_url("Empresa/empresas")?>">Voltar</a></button>
+	<button id="btn"><a href="<?= base_url("Colaboradores/viewColaborador/".$empresa['id'])?>">Voltar</a></button>
 	<h2>Cadastrar Colaborador</h2> 
 		<label for="nome"><b>Nome Completo</b></label>
 		<input type="text" name="nome" id="nome" required="required">

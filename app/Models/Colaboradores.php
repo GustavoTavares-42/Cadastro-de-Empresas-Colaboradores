@@ -28,10 +28,10 @@ class Colaboradores extends Model
         return $query->getResult();
     }
 
-    public function consultarId($id)
+    public function empresaId($id)
     {
         $db = db_connect();
-        $query = $db->query("SELECT * FROM empresa WHERE id = $id");
+        $query = $db->query("SELECT empresa_id FROM colaboradores WHERE id = $id");
         return $query->getRowArray();
     }
 }
